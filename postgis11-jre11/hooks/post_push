@@ -1,5 +1,5 @@
 #!/bin/bash
 
-TAG_NAME=$DOCKER_REPO:postgis11-11.0.3-$SOURCE_COMMIT
+TAG_NAME=$DOCKER_REPO:postgis11-jre11
 docker tag $IMAGE_NAME $TAG_NAME
 docker push $TAG_NAME
